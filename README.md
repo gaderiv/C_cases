@@ -1,40 +1,45 @@
 # C_cases
+
 cases on c programming language
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-                                                            name of challenge: Playing With Characters
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+                                       name of challenge: Playing With Characters
+                                                            
+
 Objective
-This challenge will help you to learn how to take a character, a string and a sentence as input in C.
-To take a single character ch as input, you can use scanf("%c", &ch ); and printf("%c", ch) writes a character specified by the argument char to stdout
 
-char ch;
-scanf("%c", &ch);
-printf("%c", ch);
+![obraz](https://user-images.githubusercontent.com/56294674/141796019-452e1cb9-ef30-4003-a491-206a8883215e.png)
 
-This piece of code prints the character ch. You can take a string as input in C using scanf(“%s”, s). But, it accepts string only until it finds the first space. In order to take a line as input, you can use scanf("%[^\n]%*c", s); where s is defined as char s[MAX_LEN] where is the maximum size of s. Here, [] is the scanset character. ^\n stands for taking input until a newline isn't encountered. Then, with this %*c, it reads the newline character and here, the used * indicates that this newline character is discarded.
-Note: The statement: scanf("%[^\n]%*c", s); will not work because the last statement will read a newline character, \n, from the previous line. This can be handled in a variety of ways. One way is to use scanf("\n"); before the last statement.
 
 Task
-You have to print the character, ch, in the first line. Then print s in next line. In the last line print the sentence, sen.
+
+![obraz](https://user-images.githubusercontent.com/56294674/141796060-75bd6a6c-23cd-470e-98ef-a36fc6a16aa3.png)
+
 
 Input Format
-First, take a character, ch, as input. Then take the string, s as input. Lastly, take the sentence sen as input.
+
+![obraz](https://user-images.githubusercontent.com/56294674/141796092-7b810a6d-4bc8-498e-b885-154c7da986a3.png)
+
 
 Constraints
-Strings for s and sen will have fewer than 100 characters, including the newline.
+
+![obraz](https://user-images.githubusercontent.com/56294674/141796116-48a15c8c-960f-46c7-845f-b34b410e7b2b.png)
+
 
 Output Format
-Print three lines of output. The first line prints the character, ch. The second line prints the string, s. The third line prints the sentence, sen.
+
+![obraz](https://user-images.githubusercontent.com/56294674/141796166-44543f99-02cf-4f79-9c1b-6301bd984672.png)
+
 
 Sample Input 0:
-C
-Language
-Welcome To C!!
+
+![obraz](https://user-images.githubusercontent.com/56294674/141795719-bde6bbc7-22db-4138-9346-d5b442ffa244.png)
+
 
 Sample Output 0:
-C
-Language
-Welcome To C!!
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-                                                                             end
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+![obraz](https://user-images.githubusercontent.com/56294674/141795830-3f60c8c3-8fc8-4496-a952-debd7188df9e.png)
+
+
+                                                            end
